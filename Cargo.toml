@@ -1,0 +1,18 @@
+[package]
+name = "nearest-neighbor-search-server"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "*"
+hex = "*"
+serde = { version = "1.0", features = ["derive"] }
+
+serde_json = "1.0"
+futures = "0.3"
+json = "*"
+sysinfo = "*"
+glidesort = "0.1.1"
+kmeans = "0.2.0"
