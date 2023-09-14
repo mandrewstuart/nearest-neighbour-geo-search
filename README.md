@@ -44,7 +44,9 @@ median time taken 0:00:00.001391
 
 ## Caveats
 
-There are commented-out lines related to geo-distance in kilometers. Please feel free to reach out to me if you need some help getting that working. My email is andrew.matte@gmail.com
+There are commented-out lines related to geo-distance in kilometers. Please feel free to reach out to me if you need some help getting that working. My email is andrew.matte@gmail.comst
+
+I am using the kmeans crate to cluster the vectors so that I can search the cluster centroids in the /search_ann index. That crate relies on packed_simd_2 which I am able to build locally but not on some other machines, which makes the build fail on github's workflows. I am considering changing that package out for another so that more people can use it.
 
 
 ## Some Details
