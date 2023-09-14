@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Install latest nightly
-        uses: actions-rs/toolchain@nightly
+        uses: dtolnay/rust-toolchain@nightly
   build:
     runs-on: ubuntu-latest
     steps:
