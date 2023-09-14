@@ -15,6 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build
+      run: lscpu
     - uses: dtolnay/rust-toolchain@nightly
     - name: nightly
       run: cargo build
