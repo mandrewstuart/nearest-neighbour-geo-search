@@ -56,7 +56,7 @@ The search runs on a single core, but if multiple queries are executing at the s
 
 ## Credits
 
-Made Andrew Matte, with some help from Bob Matte, and a secret third person. Mostly funded by Findhelp Information Service Inc in Toronto, Canada.
+Made Andrew Matte, with some help from Bob Matte, and a secret third person. Mostly funded by the Canadian Government's Employment and Social Development Canada's (ESDC's) Youth Employment and Skills Strategy (YESS) through the Contextual Opportunities and Resources Distribution System (CORDS) project.
 
 ## Recent summary
 
